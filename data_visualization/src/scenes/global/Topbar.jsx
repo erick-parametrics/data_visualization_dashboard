@@ -1,5 +1,7 @@
 import React from "react";
 import { Box, IconButton, useTheme, InputBase } from "@mui/material";
+import { useContext } from "react";
+// import InputBase from "@mui/material/InputBase"; // This should work as well...
 import { ColorModeContext, tokens } from "../../theme";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
@@ -7,7 +9,6 @@ import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
-import { useContext } from "react";
 
 const Topbar = () => {
   const theme = useTheme();
