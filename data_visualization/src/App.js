@@ -7,9 +7,9 @@ import Sidebar from "./scenes/global/Sidebar";
 import Topbar from "./scenes/global/Topbar";
 import Dashboard from "./scenes/dashboard";
 import Team from "./scenes/team";
-// import Invoices from "./scenes/invoices";
+import Claims from "./scenes/claims";
 // import Calendar from "./scenes/calendar";
-// import Contacts from "./scenes/contacts";
+import Contacts from "./scenes/contacts";
 // import Form from "./scenes/form";
 // import Bar from "./scenes/bar";
 // import Line from "./scenes/line";
@@ -31,8 +31,8 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
-              {/* <Route path="/contacts" element={<Contacts />} /> */}
-              {/* <Route path="/invoices" element={<Invoices />} /> */}
+              <Route path="/contacts" element={<Contacts />} />
+              <Route path="/claims" element={<Claims />} />
               {/* <Route path="/form" element={<Form />} /> */}
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
