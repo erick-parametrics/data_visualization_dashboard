@@ -83,6 +83,7 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
+                {/* I can logo or text title here */}
                 <Typography variant="h3" color={colors.grey[100]}></Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
