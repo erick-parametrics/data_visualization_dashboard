@@ -10,7 +10,7 @@ import Team from "./scenes/team";
 import Claims from "./scenes/claims";
 // import Calendar from "./scenes/calendar";
 import Contacts from "./scenes/contacts";
-// import Form from "./scenes/form";
+import Form from "./scenes/form";
 // import Bar from "./scenes/bar";
 // import Line from "./scenes/line";
 // import Pie from "./scenes/pie";
@@ -33,7 +33,7 @@ const App = () => {
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/claims" element={<Claims />} />
-              {/* <Route path="/form" element={<Form />} /> */}
+              <Route path="/form" element={<Form />} />
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
