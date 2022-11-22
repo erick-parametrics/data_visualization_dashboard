@@ -69,13 +69,13 @@ const BarChart = ({ isDashboard = false }) => {
       //   fill={[
       //     {
       //       match: {
-      //         id: "fries",
+      //         id: "temperature",
       //       },
       //       id: "dots",
       //     },
       //     {
       //       match: {
-      //         id: "sandwich",
+      //         id: "precipitation",
       //       },
       //       id: "lines",
       //     },
