@@ -6,10 +6,7 @@ import PieChart from "../../components/PieChart";
 const Pie = () => {
   return (
     <Box m="20px">
-      <Header
-        title="Predicted Yield Based on Township..."
-        subtitle="Synthetic Canola"
-      />
+      <Header title="Total Policy Premium " subtitle="Per RSM" />
       <Box height="75vh">
         <PieChart />
       </Box>

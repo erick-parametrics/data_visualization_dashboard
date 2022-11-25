@@ -41,6 +41,10 @@ const BarChart = ({ isDashboard = false }) => {
       }}
       keys={["cib", "temperature", "synCanLAS", "precipitation"]}
       indexBy="township"
+      // groupMode="grouped"
+      // layout="horizontal"
+      // enableGridY={false}
+      // enableGridX={true}
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}
@@ -90,7 +94,8 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: "Township",
+        // legend: "Township",
+        legend: isDashboard ? undefined : "Township",
         legendPosition: "middle",
         legendOffset: 32,
       }}
@@ -99,6 +104,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickPadding: 5,
         tickRotation: 0,
         // legend: "food",
+        legend: isDashboard ? undefined : "Rate",
         legendPosition: "middle",
         legendOffset: -40,
       }}
