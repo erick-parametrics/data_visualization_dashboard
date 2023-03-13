@@ -75,6 +75,7 @@
 
 // export default Dashboard;
 
+import React from "react";
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import { mockTransactions } from "../../data/mockData";

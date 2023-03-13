@@ -1,3 +1,4 @@
+import React from "react";
 import { useTheme } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
 import { tokens } from "../theme";
@@ -140,7 +141,7 @@ const BarChart = ({ isDashboard = false }) => {
       ]}
       role="application"
       ariaLabel="Nivo bar chart demo"
-      barAriaLabel={function (e) {
+      barAriaLabel={function(e) {
         return e.id + ": " + e.formattedValue + " in township: " + e.indexValue;
       }}
     />
