@@ -99,7 +99,7 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
+        <Header title="WELCOME TO MY DASHBOARD" subtitle="" />
 
         <Box>
           <Button
@@ -388,7 +388,7 @@ const Dashboard = () => {
             p="15px"
           >
             <Typography color={colors.grey[100]} variant="h5" fontWeight="600">
-              Recent Transactions
+              Current Crop Price per Bushel
             </Typography>
           </Box>
           {mockTransactions.map((transaction, i) => (
